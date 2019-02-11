@@ -13,8 +13,8 @@ with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-    name="lambdadata_invegat",
-    version="0.0.5",
+    name="lambdadata_invegat2",
+    version="0.0.6",
     author="invegat",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
