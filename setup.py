@@ -6,7 +6,8 @@ import setuptools
 
 REQUIRED = [
     "numpy",
-    "pandas"
+    "pandas",
+    "sklearn.model_selection"
 ]
 
 with open("README.md", "r") as fh:
@@ -14,7 +15,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lambdadata_invegat2",
-    version="0.0.6",
+    version="0.0.7",
     author="invegat",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
